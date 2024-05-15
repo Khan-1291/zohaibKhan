@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zohaib Khan | My protofolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="home.css">
+    <style>
+        .lap {
+            display: inline-block;
+            position: relative;
+            margin-left: 10px;
+            margin-bottom: 30px;
+            margin-right: 10px;
+            margin-top: 0px;
+        }
+
+        .laptop {
+            margin: 30px;
+            width: 350px;
+            height: 200px;
+            border: 6px solid black;
+            border-radius: 20px;
+            margin-bottom: 0px;
+
+        }
+
+        .laptop h5 {
+            background-color: black;
+            text-align: center;
+            margin-bottom: 0px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .laptop video {
+            width: 345px;
+            height: 165px;
+
+        }
+
+        .base {
+            margin-top: 0px;
+            background-image: url('key.jpeg');
+            display: flex;
+            background-size: cover;
+            margin-top: 0px;
+            margin-left: 25px;
+            width: 355px;
+            height: 150px;
+            /* Adjust the height as needed */
+            background-color: #4b4848;
+            /* Sample color for base */
+            border-left: 10px solid black;
+            border-right: 10px solid black;
+            border-bottom: 10px solid #070707;
+            /* Border color lighter than background */
+            border-radius: 0px 0px 20px 20px;
+            /* Adjust border radius to match laptop */
+            transform: perspective(100px) rotateX(5deg);
+            /* Apply perspective and rotation */
+            position: relative;
+            /* Positioning for pseudo-element */
+        }
+
+        .base::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            /* Height of top border */
+            left: -6px;
+            /* Width of left border */
+            right: -6px;
+            /* Width of right border */
+            height: 6px;
+            /* Height of top border */
+            background-color: #000;
+            /* Color of top border */
+            box-shadow: 0px 0px 5px 5px;
+        }
+
+        #serbutton {
+            margin-left: 10px;
+            width: 180px;
+            height: 40px;
+            border-radius: 10px;
+            font-size: 15px;
+            font-weight: bold;
+            background-color: black;
+            color: white;
+        }
+
+        .tagline {
+            background-image: url('1.png');
+            float: right;
+            margin-left: 20px;
+            margin-right: 200px;
+            height: 400px;
+            width: 190px;
+
+
+            border: 20px solid black;
+            border-bottom: 70px solid #070707;
+            /* Border color lighter than background */
+            border-radius: 20px 20px 20px 20px;
+            /* Adjust border radius to match laptop */
+            transform: perspective(100px) rotateX(normal);
+            /* Apply perspective and rotation */
+            margin-top: 30px;
+            position: relative;
+            /* Positioning for pseudo-element */
+        }
+
+        .tagline::before {
+            content: '';
+            position: relative;
+            top: 6px;
+            /* Height of top border */
+            left: 6px;
+            /* Width of left border */
+            right: 6px;
+            /* Width of right border */
+            height: 6px;
+            /* Height of top border */
+            background-color: #000;
+            /* Color of top border */
+            box-shadow: 0px 0px 5px 5px;
+        }
+
+        #sget {
+            margin-left: 50px;
+            margin-right: 50px;
+            background-color: #ada8a8;
+            border-radius: 20px;
+        }
+
+        #sget h2 {
+            margin: 20px;
+            font-size: 15px;
+            font-weight: normal;
+            text-align: justify;
+            border-radius: 20px;
+        }
+
+        .ourprincipel1 {
+            text-align: center;
+
+            font-size: 20px;
+            font-weight: bold;
+            font-style: oblique;
+            font-family: sans-serif;
+        }
+.otherd{
+    display: inline-block;
+
+    width: 60%;
+    margin-left: 20px;
+    text-align: justify;
+}
+.otherd h1{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style: normal;
+
+
+}
+.otherd h2{
+    font-size: 17px;
+    line-height: 30px;
+
+    font-weight: normal;
+    font-family: sans-serif;
+    font-style: normal;
+width: 100%;
+}
+.tagline video{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+        @media screen and (min-width:768px) and (max-width:1024px) {
+
+            .tagline {
+
+                display: inline-block;
+                margin-right: 40px;
+
+
+            }
+
+            .otherd {
+                margin-right: 40px;
+            }
+
+            #two {
+                margin-top: 20px;
+            }
+
+
+
+        }
+
+        @media screen and (max-width:600px) {
+
+            .lap {
+                margin-left: auto;
+                margin-right: auto;
+
+
+
+            }
+
+            .laptop {
+
+                width: 300px;
+
+            }
+
+            .laptop video {
+                width: 290px;
+                margin: 5px;
+            }
+
+            .base {
+                width: 310px;
+            }
+
+
+
+
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="topnav" id="myTopnav">
+                <h1 class="khan">Zohaib khan</h1>
+                <a href="home.html">Home</a>
+                <a href="Aboutme.html">About Me</a>
+                <a href="protofolio.html">Portfolio</a>
+                <a href="contect.html">Contect</a>
+                <a href="blog.html">Blog</a>
+                <a href="ser.html">Services </a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="1">
+            <div class="back">
+                <div class="back1">
+                    <h1></h1>
+                </div>
+
+                <div class="screen"></div>
+            </div>
+
+
+            <div class="Myintro">
+                <div>
+                    <h1>Zohaib Khan</h1>
+                    <span><img src="d2.jpeg" alt="" id="zk" width="40px"> Web desgner and devolper <img src="d2.jpeg"
+                            alt="" width="40px"></span>
+                    <h1>Welcome to my digital home! I'm Zohaib Khan, a passionate web developer and desighner on a
+                        mission
+                        to
+                        craft
+                        captivating digital experiences that leave a lasting impression. Here, you'll discover a fusion
+                        of
+                        creativity, innovation, and technical prowess, all aimed at bringing your digital dreams to
+                        life.
+                        <div id="sget">
+                            <h2></h2>
+                            <a href="ser.html"><button type="button" id="serbutton">Get Your Website today</button></a>
+                            <br><img src="banner_avatar2.png" alt="">
+                        </div>
+
+                </div>
+                </h1>
+            </div>
+
+            <div class="tagline">
+                <video src="homemo.mp4" autoplay muted loop></video>
+            </div>
+
+        </section>
+
+        <section id="three">
+         
+            <div class="otherd">
+
+           <h1> <img src="banner_avatar4.png" alt="">   Web Design and devolpment</h1>
+         <h2>    Hire us for creative Website Design, Web Application Development,
+                 Mobile Application Development & Design. We follow
+                a customer-centric approach. We guarantee exceptional results and ensure that our approach
+                works best for your business. We can help your business reach new heights.We We Empowering Your Online Presence, Pixel by Pixel !.
+         </h2>
+<br>
+
+        
+            <a href="ser.html"><button type="button" id="serbutton">Check Out our protofolio</button></a>
+
+       
+
+            </div>
+               <div class="lap">
+                <div class="laptop">
+                    <h5>.</h5>
+                    <video src="home.mp4" autoplay muted loop></video>
+                    <h5>TOSHIBA</h5>
+                </div>
+                <div class="base">
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+        <section id="two">
+
+            <div class="ourprincipel" style=" display: block;height:auto;margin-bottom: 30px; text-align: center; ">
+                <img src="girl.png" alt="">
+
+                <div class="ourprincipel1">Our Standreds</div>
+                <img src="7-Phases-of-web-development-life-cycle.jpg" alt="" width="95%"
+                    style="border-radius: 20px; margin-top: 20px;">
+            </div>
+        </section>
+
+
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section contact">
+
+
+                    <h2>Contact Me</h2>
+                    <p>Email: zk3165657513@gmail.com</p>
+                    <p>Phone: +92-316-5657513</p>
+                </div>
+                <div class="footer-section social">
+                    <h2>Connect</h2>
+                    <ul class="social-links">
+                        <li><a href="https://www.linkedin.com/in/zohaib-khan"><i class="fab fa-linkedin">Connect
+                                    with linkedin</i></a></li>
+                        <li><a href="https://github.com"><i class="fab fa-github"></i>Follow on Fasebook</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-section legal">
+                    <h2>Legal</h2>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Zohaib Khan. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="home.js">
+        document.getElementById(serbutton).addEventListener("click", function () {
+            window.location
+
+        })
+
+    </script>
+</body>
+
+</html>
