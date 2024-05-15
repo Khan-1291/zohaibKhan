@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zohaib Khan | My protofolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    <link rel="stylesheet" href="home.css">
+    <style>
+        .box {
+            height: auto;
+            width: auto;
+        }
+
+        .box h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: xx-large;
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: solid;
+            text-align: center;
+        }
+
+        .lap {
+            display: inline-block;
+            position: relative;
+            margin-left: 10px;
+            margin-bottom: 30px;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+
+        .laptop {
+            margin: 30px;
+            width: 350px;
+            height: 200px;
+            border: 6px solid black;
+            border-radius: 20px;
+            margin-bottom: 0px;
+
+        }
+
+        .laptop h5 {
+            background-color: black;
+            text-align: center;
+            margin-bottom: 0px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .laptop video {
+            width: 345px;
+            height: 165px;
+
+        }
+
+        .base {
+            margin-top: 0px;
+            background-image: url('key.jpeg');
+            display: flex;
+            background-size: cover;
+            margin-top: 0px;
+            margin-left: 25px;
+            width: 355px;
+            height: 150px;
+            /* Adjust the height as needed */
+            background-color: #4b4848;
+            /* Sample color for base */
+            border-left: 10px solid black;
+            border-right: 10px solid black;
+            border-bottom: 10px solid #070707;
+            /* Border color lighter than background */
+            border-radius: 0px 0px 20px 20px;
+            /* Adjust border radius to match laptop */
+            transform: perspective(100px) rotateX(5deg);
+            /* Apply perspective and rotation */
+            position: relative;
+            /* Positioning for pseudo-element */
+        }
+
+        .base::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            /* Height of top border */
+            left: -6px;
+            /* Width of left border */
+            right: -6px;
+            /* Width of right border */
+            height: 6px;
+            /* Height of top border */
+            background-color: #000;
+            /* Color of top border */
+            box-shadow: 0px 0px 5px 5px;
+        }
+        @media screen and  (min-width:600px) and (max-width:860px) {
+            .lap {
+                margin-left:auto;
+                margin-right: auto;
+               
+
+
+            }
+
+            .laptop {
+                
+                width: 300px;
+               
+            }
+
+            .laptop video {
+                width: 290px;
+                margin: 5px;
+            }
+
+            .base { 
+                width: 290px;
+            }
+            
+        }
+
+        @media screen and (max-width:412px) {
+            .lap {
+                margin-left: 0px;
+                margin-right: 0px;
+
+
+            }
+
+    }
+        @media screen and (max-width:360px) {
+            .lap {
+                margin-left: 0px;
+                margin-right: 0px;
+
+
+            }
+
+            .laptop {
+                margin-left: 20px;
+                width: 290px;
+
+            }
+
+            .laptop video {
+                width: 280px;
+                margin: 5px;
+            }
+
+            .base {
+                width: 280px;
+            }
+        }
+        @media screen and  (min-width:375px) and (max-width:450px) {
+            .lap {
+                margin-left:auto;
+                margin-right: auto;
+               
+
+
+            }
+
+            .laptop {
+                
+                width: 300px;
+               
+            }
+
+            .laptop video {
+                width: 290px;
+                margin: 5px;
+            }
+
+            .base { 
+                width: 290px;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="topnav" id="myTopnav">
+                <h1 class="khan">Zohaib khan</h1>
+                <a href="home.html">Home</a>
+                <a href="Aboutme.html">About Me</a>
+                <a href="protofolio.html">Portfolio</a>
+                <a href="contect.html">Contect</a>
+                <a href="blog.html">Blog</a>
+                <a href="ser.html">Services </a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="box">
+            <h1>My projects</h1>
+
+
+            <div class="lap">
+                <div class="laptop">
+                    <h5>.</h5>
+                    <video src="vidio2.mp4" autoplay muted loop></video>
+                    <h5>TOSHIBA</h5>
+                </div>
+                <div class="base">
+                </div>
+            </div>
+
+            <div class="lap">
+                <div class="laptop">
+                    <h5>.</h5>
+                    <video src="vidio.mp4" autoplay muted loop></video>
+                    <h5>TOSHIBA</h5>
+                </div>
+                <div class="base">
+                </div>
+            </div>
+
+            <div class="lap">
+                <div class="laptop">
+                    <h5>.</h5>
+                    <video src="vidio1.mp4" autoplay muted loop></video>
+                    <h5>TOSHIBA</h5>
+                </div>
+                <div class="base">
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section contact">
+
+
+                    <h2>Contact Me</h2>
+                    <p>Email: zk3165657513@gmail.com</p>
+                    <p>Phone: +92-316-5657513</p>
+                </div>
+                <div class="footer-section social">
+                    <h2>Connect</h2>
+                    <ul class="social-links">
+                        <li><a href="https://www.linkedin.com/in/zohaib-khan"><i class="fab fa-linkedin">Connect
+                                    with linkedin</i></a></li>
+                        <li><a href="https://github.com"><i class="fab fa-github"></i>Follow on Fasebook</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-section legal">
+                    <h2>Legal</h2>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Zohaib Khan. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+<script src="home.js">
+
+
+</script>
+</body>
+
+</html>
