@@ -142,6 +142,41 @@ form div{
     
     
 }
+          body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    
 
 
     </style>
@@ -177,63 +212,20 @@ form div{
             <p>Address:Mardan, KPK, Pakistan</p>
         </div>
             <div class="box1">
-                <form action="https://formspree.io/f/xjvnznnq" method="POST" id="myForm" >
-                    <h1>Message US today</h1>
-                    <div class="name">
-                        <label for="Name">Name :-</label>
-                        <input type="text" id="name" placeholder="Enter your Full Name" required>
-                    </div>
-
-                    <div class="name">
-                        <label for="Name">Email :-</label>
-                        <input type="email" id="Email" placeholder="Enter your email/gmail" required>
-                    </div>
-
-
-                    <div class="name">
-                        <label for="Name">Contect No :-</label>
-                        <input type="text" id="name" placeholder="Enter your Contect  (optional)">
-                    </div>
-                    <div class="name">
-                        <label for="Name">Address :-</label>
-                        <input type="text" id="name" placeholder="Enter Your Address  (Optional)">
-                    </div>
-
-                    <div class="Message">
-                        <label for="Name">How can we help you ?.</label>
-                        <select name="Message" id="" aria-placeholder="Select option" required>
-
-
-                            <option value="select" ></option>
-
-                            <option value="Devolp Website">Devolp Website</option>
-                            <option value="Design Website">Design Website</option>
-                            <option value="Devolp Website">Other</option>
-
-
-
-
-                        </select>
-                    </div>
-
-
-                    <div class="name">
-                        <label for="Name">Type your message here :-</label>
-
-                        <textarea name="textarea" id="messagedetails" cols="30" rows="10"
-                            placeholder="Enter your message in detail"></textarea>
-                    </div>
-
-                    <div class="anti">
-                  <span>   
-                        <label for="spam-checkbox">I'm not a robot</label></span>
-                        <input type="checkbox" id="spam-checkbox" name="spam-checkbox" required>
-
-                    </div>
-                    <div class="submit">
-                        <button id="submitButton" type="submit">Submit message</button>
-                    </div>
-
+               
+    <h1>Contact Us</h1>
+    <form action="https://formspree.io/f/xjvnznnq" method="POST">
+        <label>
+            Your email:
+            <input type="email" name="email" required>
+        </label>
+        <label>
+            Your message:
+            <textarea name="message" required></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+  
 
 
 
