@@ -117,11 +117,14 @@
 
 
 
-
+footer{justify-self: center;
+    width: 100%;}
 
 .footer{
     background-color: #333;
-    justify-self: start;
+  justify-self: center;
+    width: 100%;
+
 }
 
 
