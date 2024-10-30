@@ -117,8 +117,21 @@
 
 
 
-footer{justify-self: center;
-    width: 100%;}
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+      .footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+      
+      
+      
 
 .footer{
     background-color: #333;
