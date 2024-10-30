@@ -121,6 +121,7 @@ footer {
     display: flex;
     justify-content: center;
     width: 100%;
+    color:white;
 }
 
       .footer {
@@ -128,7 +129,17 @@ footer {
     justify-content: center;
     width: 100%;
 }
+ footer{
+            color: white;
+            
+        }
+        footer:any-link{
+            color: blue;
 
+        }
+        footer a:visited{
+            color: red;
+        }
       
       
       
