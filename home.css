@@ -129,15 +129,15 @@ footer {
     justify-content: center;
     width: 100%;
 }
- footer{
+ .footer{
             color: white;
             
         }
-        footer:any-link{
+        .footer:any-link{
             color: blue;
 
         }
-        footer a:visited{
+        .footer a:visited{
             color: red;
         }
       
